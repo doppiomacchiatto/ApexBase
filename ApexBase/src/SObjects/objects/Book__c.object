@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>just a test object with one field for ant deployment testing</description>
+    <!-- Define the object fields here -->
+    <!-- http://www.salesforce.com/us/developer/docs/api_meta/Content/customobject.htm -->
+    <fields>
+        <fullName>Price__c</fullName>
+        <description>Add the object's purpose here!</description>
+        <inlineHelpText>This field contains comments made about this object</inlineHelpText>
+        <label>Price</label>
+        <precision>16</precision>
+        <scale>2</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Book</label>
+    <nameField>
+        <label>Book</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Books</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>
