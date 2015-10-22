@@ -7,7 +7,6 @@ Use this project to test your CI configuration with the Force.com platform.  The
 * Java 1.7 or greater
 * Apache **ant**
 * Salesforce ant (ant-salesforce.jar)
-* 
 
 ## Example Task
 From the command line: ant retrieveCode
